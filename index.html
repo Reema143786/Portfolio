@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+
+        <!-- Navbar -->
+        <nav>
+            <div class="brand">
+                <div class="left">
+                    <h1><b>R</b>eema <b>S</b>haik</h1>
+                </div>
+                <input type="checkbox" id="check" class="toggle-checkbox">
+                <label for="check" class="Humburger_icon">
+                    <i class="fa-solid fa-bars"></i>
+                </label>
+                <div class="right nav-links">
+                    <a href="#Home_section">Home</a>
+                    <a href="#About_sec">About</a>
+                    <a href="#skills_section">Projects</a>
+                    <a href="#project_section">Skills</a>
+                    <a href="#contact_sec">Contact</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+
+        <!-- Home Page -->
+        <section id="Home_section">
+                <div class="Home_left">
+                    <h1>Hi! I'm Reema Shaik</h1>
+                    <h3> A passionate <b>web developer</b></h3>
+                   <p> I specialize in crafting creative, user-friendly, and
+                    functional websites.</p> 
+                    <p>Welcome to my journey of exploring the art of building stunning
+                     digital experiences.</p>
+                   <button class="btn_1">Hire Me</button>
+                   <button class="btn_2">Download CV</button>
+                </div>
+                <div class="Home_right">
+                    <div class="circle"></div>
+                    <img src="./Laptop.jpeg" alt="Home_image" class="Home_image" >
+                </div>
+        </section>
+        <section id="About_sec">
+            <div class="About_left">
+                <img src="./Laptop.jpeg" alt="Home_image" class="About_image" >
+            </div>
+            <div class="About_right">
+                <button>About Me</button>
+                <p>Hi, I'm Rema Shaik , an aspiring web developer passionate about building user-friendly and visually appealing websites. I'm currently pursuing my skills in HTML and CSS and excited to continue learning and growing in this field.</p>
+            </div>
+        </section>
+        <section id="skills_section">
+            <h2>Technical Skills</h2>
+            <div class="skills-container">
+                <div class="skill-card">
+                    <h3>HTML</h3>
+                    <p>Structured web content with HTML.</p>
+                </div>
+                <div class="skill-card" >
+                    <h3 style="color:blue">CSS</h3>
+                    <p>Styled web pages using CSS.</p>
+                </div>
+                <div class="skill-card">
+                    <h3 style="color:darkgreen">CHATBOT</h3>
+                    <p>Chatbot creation by using IBM Watsonx Assistant.</p>
+                </div>
+            </div>
+        </section>
+
+    <section id="project_section">
+        <h2>Latest Project</h2>
+        <div class="project-container">
+            <div class="project_card">
+                <img src="./chatbot.jpeg" alt="chatbot_img" width="400px" height="300px">
+            </div>
+            <div class="project_card">
+                <img src="./collegebot.png" alt="collegebot" width="400px" height=300px>
+            </div>
+            <div class="project_para">
+                <p>This project leverages IBM Watsonx Assistant to develop a chatbot that provides interactive instructions to users. The chatbot demonstrates my proficiency in using AI tools to create conversational solutions that guide users through tasks step-by-step. It highlights my ability to design user-centric AI applications that streamline processes, offering practical and intuitive user support through natural language interactions.
+                </p>
+            </div>
+        </div>
+    </section>
+</main>
+    <footer id="contact_sec">
+        <h2>Contact <b>Me</b></h2>
+        <div class="contact_left">
+            <form action="#" class="form1">
+                <label for="name"></label>
+                <input type="text" id="name" name="name" value=" Enter Your name" required>
+                <label for="mail"></label>
+                <input type="text" id="mail" name="mail" value=" Enter Your Email" required>
+                <label for="subject"></label>
+                <input type="text" id="subject" name="subject" value=" Enter Your subject" required>
+                <label for="mssg"></label>
+                <input type="text" id="mssg" name="mssg" value=" Enter Your message" rows="5"  cols="500" required>
+                <button type="submit">Send</button>
+                
+            </form>
+        </div>
+        <div class="contact_right">
+            <h3>Let's <b>Work Togther</b></h3>
+            <p>I am passionate about collaborating on innovative projects and bringing creative solutions to life. If you're looking for a dedicated individual with a growing expertise in web development and AI applications, let's connect! I’m always excited to explore new challenges, exchange ideas, and contribute to impactful initiatives. Whether you have a specific project in mind, need a new team member, or want to brainstorm ideas, I’m eager to hear from you.</p>
+            <i class="fa-solid fa-envelope" id="email_img"></i>
+            <i class="fa-brands fa-whatsapp"></i>
+            <i class="fa-brands fa-linkedin" id="linkedin_img"></i>
+            <i class="fa-brands fa-instagram"></i>
+        </div>
+</footer>
+    
+</body>
+</html>
